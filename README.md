@@ -1,4 +1,4 @@
-# eslint-plugin-dunno
+# eslint-plugin-restrict-imports
 [![CircleCI](https://circleci.com/gh/Billlynch/eslint-plugin-restrict-imports.svg?style=svg)](https://circleci.com/gh/Billlynch/eslint-plugin-restrict-imports)
 
 Eslint plugin to ban specified imports in specified directories
