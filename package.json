@@ -1,0 +1,29 @@
+{
+    "name": "eslint-plugin-restrict-imports",
+    "version": "0.0.1",
+    "description": "Eslint plugin to ban specified imports in specified directories",
+    "keywords": [
+        "eslint",
+        "eslintplugin",
+        "eslint-plugin"
+    ],
+    "author": "Bill Lynch",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "mocha tests --recursive",
+        "lint": "eslint .",
+        "prettier": "prettier --write ."
+    },
+    "dependencies": {
+        "prettier": "^2.1.2",
+        "requireindex": "~1.1.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.1.0",
+        "mocha": "^7.2.0"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "license": "ISC"
+}
